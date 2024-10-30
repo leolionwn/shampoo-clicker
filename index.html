@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shampoo Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shampoo Clicker</h1>
+        <div class="click-area">
+            <img src="shampoo.png" alt="Shampoo Bottle" id="shampoo" onclick="handleClick()">
+            <p id="click-count">Клики: 0</p>
+        </div>
+        <div id="reward-message"></div>
+        <button onclick="showPromoCodes()">Промокоды</button>
+        <div id="promo-codes" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
